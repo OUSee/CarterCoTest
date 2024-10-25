@@ -6883,7 +6883,7 @@ select:visited {
 /*Footer section 2*/
 /*--------------------------*/
 .yl-footer-section-2 {
-  background-color: #374957;
+  background-color: black;
 }
 .yl-footer-section-2 .yl-footer-content-wrap {
   padding-top: 80px;
@@ -7194,7 +7194,7 @@ select:visited {
     width: 33%;
   }
   .feature-card a {
-    font-size: 18px;
+    font-size: 14px;
   }
   .about-page-about-section {
     padding-bottom: 20px;
@@ -7381,7 +7381,6 @@ select:visited {
   }
 
   .yl-banner-text {
-    text-align: center;
     padding: 170px 0px 60px;
   }
 
