@@ -7578,8 +7578,24 @@ select:visited {
   .yl-event-wrap-section {
     padding: 50px 0px 20px;
   }
+  .yl-feature-innerbox {
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .feature-card a {
+    font-size: 12px;
+  }
+  .yl-feature-innerbox .yl-feature-text h3 {
+    line-height: 14px;
+  }
 }
 @media screen and (max-width: 380px) {
+  .feature-card a {
+    font-size: 10px;
+  }
+
   .slider-main-item .slider-main-text h1 {
     font-size: 30px;
   }
