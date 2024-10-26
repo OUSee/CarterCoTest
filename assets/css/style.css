@@ -1239,6 +1239,9 @@ select:visited {
 
 .cd-words-wrapper {
   position: relative;
+  width: 366px;
+  display: flex;
+  align-items: flex-start;
 }
 
 .cd-words-wrapper b {
@@ -7614,9 +7617,7 @@ select:visited {
   }
   .cd-headline.scale b {
     position: absolute;
-    left: -186px;
     width: 100vw;
-    text-align: center;
   }
   .cd-headline.letters.scale {
     padding-bottom: 50px;
