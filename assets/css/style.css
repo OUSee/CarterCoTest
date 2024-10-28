@@ -59,6 +59,14 @@ theme.
 
 /*global area*/
 /*----------------------------------------------------*/
+.ancker {
+  width: 100%;
+  height: 1px;
+  outline: 3px solid red;
+}
+section {
+  padding-top: 150px;
+}
 .yl-home {
   margin: 0;
   padding: 0;
@@ -367,6 +375,20 @@ select:visited {
   100% {
     transform: translate(0px, 0px) rotate(0deg);
   }
+}
+.assortment-arrow {
+  position: absolute;
+  z-index: 9;
+  width: 100px;
+  left: 47.5vw;
+  top: 3000px;
+}
+.hero-watermark {
+  position: absolute;
+  top: 70%;
+  left: -9px;
+  width: 40%;
+  opacity: 0.05;
 }
 /*---------------------------------------------------- */
 /*Header area*/
@@ -1547,6 +1569,7 @@ select:visited {
 .yl-banner-section {
   background-color: #f7f7f7;
   padding-bottom: 132px;
+  padding-top: 0;
 }
 .yl-banner-section .banner-dot-square {
   z-index: 1;
@@ -1593,7 +1616,7 @@ select:visited {
 }
 .yl-banner-content .yl-banner-img {
   top: 90px;
-  right: -30px;
+  right: 0px;
   position: absolute;
 }
 .yl-banner-content .b-deco-shape {
@@ -1604,7 +1627,8 @@ select:visited {
   z-index: 1;
   max-width: 690px;
   overflow: hidden;
-  padding: 150px 0px 180px;
+  padding-top: 150px;
+  padding-bottom: 50px;
 }
 .yl-banner-text .yl-banner-tag {
   padding-right: 30px;
@@ -2169,9 +2193,7 @@ select:visited {
   }
 }
 .yl-about-section {
-  padding-bottom: 100px;
   background-color: #f7f7f7;
-  padding-top: 50px;
 }
 
 .yl-about-text p {
@@ -2183,7 +2205,7 @@ select:visited {
 }
 
 .yl-about-video-area {
-  padding-top: 40px;
+  padding-top: 50px;
 }
 .yl-about-video-area .yl-about-video-tag {
   top: 0;
@@ -2295,7 +2317,6 @@ select:visited {
 /*About Page area*/
 /*-------------------------*/
 .about-page-about-section {
-  padding: 40px 0px;
   background-color: #f7f7f7;
 }
 
@@ -2398,7 +2419,8 @@ select:visited {
 @media screen and (max-width: 480px) {
   .about-page-about-section,
   .about-page-service-section {
-    padding: 60px 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 /*---------------------------------------------------- */
@@ -3146,7 +3168,6 @@ select:visited {
 /*Popular course  area*/
 /*-----------------------------*/
 .yl-popular-course-section {
-  padding: 105px 0px 50px;
   background-color: #f7f7f7;
 }
 .yl-popular-course-section .yl-popular-course-content {
@@ -3440,7 +3461,6 @@ select:visited {
 /*Course Details Page  area*/
 /*-----------------------------*/
 .course-details-section {
-  padding-top: 50px;
   background-color: #f7f7f7;
 }
 
@@ -5030,11 +5050,20 @@ select:visited {
   .yl-blog-details-title {
     font-size: 26px;
   }
+
+  .hero-watermark {
+    left: 22%;
+  }
 }
 @media screen and (max-width: 380px) {
   .yl-blog-details-section .yl-blog-details-wrap .yl-blog-details-text,
   .yl-blog-details-section .yl-blog-details-comment-area {
     padding: 40px 15px;
+  }
+  .hero-watermark {
+    left: 22%;
+    top: 69%;
+    width: 55%;
   }
 }
 .yl-blog-section-4 {
@@ -5157,7 +5186,6 @@ select:visited {
 /*Category area*/
 /*----------------------------------------------------*/
 .yl-category-section {
-  padding: 95px 0px 50px 0px;
   background-color: #f7f7f7;
 }
 
@@ -6291,7 +6319,7 @@ select:visited {
 }
 
 .contact-content-section {
-  padding: 100px 0px;
+  padding-bottom: 150px;
   background-color: #f7f7f7;
 }
 
@@ -6916,20 +6944,59 @@ select:visited {
   .yl-registration-section:after {
     width: 50%;
   }
+  .yl-banner-text p {
+    padding: 0;
+    padding-bottom: 100px;
+  }
+  .yl-banner-content .yl-banner-img {
+    top: -49px;
+    width: 50%;
+    right: 0%;
+  }
+  .assortment-arrow {
+    top: 302%;
+  }
+  section {
+    padding-top: 240px;
+  }
 }
 @media screen and (max-width: 2000px) {
   .yl-registration-section:after {
     width: 54%;
   }
+  .yl-banner-text {
+    padding-top: 200px;
+  }
+  .yl-banner-text h1 {
+    padding-bottom: 50px;
+  }
+  .yl-banner-content .yl-banner-img {
+    top: 90px;
+    width: 50%;
+    right: 0%;
+  }
+  .assortment-arrow {
+    top: 349%;
+  }
 }
 @media screen and (max-width: 1800px) {
   .yl-banner-content .yl-banner-img {
-    right: -140px;
+    top: 35px;
+    width: 50%;
+    right: 0%;
+  }
+  .yl-banner-text p {
+    padding: 0;
   }
 }
 @media screen and (max-width: 1520px) {
   .yl-banner-content .yl-banner-img {
-    right: -200px;
+    top: 30px;
+    width: 60%;
+    right: -8%;
+  }
+  .yl-banner-text p {
+    padding: 0;
   }
 }
 @media screen and (max-width: 1440px) {
@@ -6938,15 +7005,25 @@ select:visited {
   }
 
   .yl-banner-content .yl-banner-img {
-    width: 50%;
-    right: 0;
+    top: -20px;
+    width: 70%;
+    right: -12%;
   }
 
   .yl-banner-text {
     max-width: 540px;
   }
+  .yl-banner-text p {
+    padding: 0;
+  }
+  .assortment-arrow {
+    left: 46.5%;
+  }
 }
 @media screen and (max-width: 1199px) {
+  section {
+    padding-top: 150px;
+  }
   #yl-main-slider .owl-dots {
     left: 0;
     right: 0;
@@ -6967,8 +7044,32 @@ select:visited {
   .banner-search-select {
     text-align: center;
   }
+  .yl-banner-text p {
+    padding: 0;
+  }
+
+  .yl-banner-content .yl-banner-img {
+    top: 80px;
+    width: 75%;
+    right: -23%;
+  }
+
+  .yl-popular-course-img-text .popular-course-title h3 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1201px) {
+  .yl-banner-text p {
+    width: 500px;
+  }
+  .yl-banner-text p {
+    padding: 0;
+  }
 }
 @media screen and (max-width: 1024px) {
+  .yl-banner-text p {
+    padding: 0;
+  }
   .yl-header-top-cta li {
     padding-left: 50px;
   }
@@ -7278,6 +7379,12 @@ select:visited {
   }
 }
 @media screen and (max-width: 480px) {
+  .scroll-wrapper {
+    scroll-snap-type: y proximity;
+  }
+  section {
+    padding-top: 100px;
+  }
   .slider-main-item .slider-main-text h1 {
     font-size: 36px;
   }
@@ -7459,24 +7566,16 @@ select:visited {
     padding-bottom: 20px;
   }
 
-  .yl-category-section {
-    padding: 50px 0px;
-  }
-
   .yl-section-title.yl-title-style-two .title-watermark {
     font-size: 60px;
     top: -30px;
   }
 
-  .yl-popular-course-section,
-  .yl-testimonial-section-2 {
-    padding: 0px 0px;
-
-    padding-top: 30px;
-  }
-
   .yl-registration-content-2 {
     padding: 20px;
+  }
+  .yl-about-video-area {
+    padding-top: 0;
   }
 
   .yl-registration-content-2 .registration-text-2 h3 {
@@ -7645,14 +7744,6 @@ select:visited {
   margin-top: 38px;
 }
 
-.assortment-arrow {
-  position: absolute;
-  z-index: 9;
-  width: 100px;
-  left: 46vw;
-  top: 3000px;
-}
-
 .browse-section-form {
   display: flex;
   flex-direction: row;
@@ -7661,16 +7752,7 @@ select:visited {
   gap: 20px;
 }
 
-@media screen and (max-width: 1440px) {
-  .assortment-arrow {
-    top: 3290px;
-  }
-}
-
 @media screen and (max-width: 1150px) {
-  .assortment-arrow {
-    top: 3500px;
-  }
 }
 
 @media screen and (max-width: 1199px) {
