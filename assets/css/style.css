@@ -61,7 +61,7 @@ theme.
 /*----------------------------------------------------*/
 .ancker {
   width: 100%;
-  height: 1px;
+  height: 0px;
 }
 section {
   padding-top: 150px;
@@ -6953,7 +6953,7 @@ select:visited {
     right: 0%;
   }
   .assortment-arrow {
-    top: 302%;
+    top: 3808px;
   }
   section {
     padding-top: 240px;
@@ -6975,7 +6975,7 @@ select:visited {
     right: 0%;
   }
   .assortment-arrow {
-    top: 394%;
+    top: 3874px;
   }
 }
 @media screen and (max-width: 1800px) {
@@ -6987,6 +6987,10 @@ select:visited {
   .yl-banner-text p {
     padding: 0;
   }
+  .assortment-arrow {
+    left: 46.5%;
+    top: 3775px;
+  }
 }
 @media screen and (max-width: 1520px) {
   .yl-banner-content .yl-banner-img {
@@ -6996,6 +7000,10 @@ select:visited {
   }
   .yl-banner-text p {
     padding: 0;
+  }
+  .assortment-arrow {
+    left: 46.5%;
+    top: 3775px;
   }
 }
 @media screen and (max-width: 1440px) {
@@ -7020,13 +7028,13 @@ select:visited {
   }
   .assortment-arrow {
     left: 46.5%;
-    top: 412%;
+    top: 3448px;
   }
 }
 @media screen and (max-width: 1200px) {
   .assortment-arrow {
     left: 46.5%;
-    top: 572%;
+    top: 3448px;
   }
 }
 @media screen and (max-width: 1199px) {
