@@ -1570,6 +1570,9 @@ select:visited {
   padding-bottom: 132px;
   padding-top: 0;
 }
+.yl-banner-btn-wrap {
+  padding-bottom: 80px;
+}
 .yl-banner-section .banner-dot-square {
   z-index: 1;
 }
@@ -5051,7 +5054,9 @@ select:visited {
   }
 
   .hero-watermark {
-    left: 22%;
+    width: 53%;
+    top: 381px;
+    left: 49%;
   }
 }
 @media screen and (max-width: 380px) {
@@ -5060,8 +5065,8 @@ select:visited {
     padding: 40px 15px;
   }
   .hero-watermark {
-    left: 22%;
-    top: 69%;
+    left: 45%;
+    top: 374px;
     width: 55%;
   }
 }
@@ -7232,7 +7237,6 @@ select:visited {
 
   .yl-banner-text {
     min-width: 100%;
-    padding-bottom: 20px;
   }
   .about-page-about-img img {
     margin-bottom: 30px;
@@ -7505,7 +7509,8 @@ select:visited {
   }
 
   .yl-banner-text {
-    padding: 170px 0px 60px;
+    padding-top: 170px;
+    padding-bottom: 0;
   }
 
   .banner-search-select .banner-select-option {
@@ -7573,7 +7578,9 @@ select:visited {
 
   .yl-banner-btn-wrap {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-bottom: 0;
+    padding-top: 80px;
   }
 
   .yl-banner-section {
