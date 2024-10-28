@@ -62,7 +62,6 @@ theme.
 .ancker {
   width: 100%;
   height: 1px;
-  outline: 3px solid red;
 }
 section {
   padding-top: 150px;
@@ -6976,7 +6975,7 @@ select:visited {
     right: 0%;
   }
   .assortment-arrow {
-    top: 349%;
+    top: 394%;
   }
 }
 @media screen and (max-width: 1800px) {
@@ -7003,6 +7002,9 @@ select:visited {
   #yl-main-slider .owl-dots {
     left: 20px;
   }
+  section {
+    padding-top: 150px;
+  }
 
   .yl-banner-content .yl-banner-img {
     top: -20px;
@@ -7018,12 +7020,16 @@ select:visited {
   }
   .assortment-arrow {
     left: 46.5%;
+    top: 412%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .assortment-arrow {
+    left: 46.5%;
+    top: 572%;
   }
 }
 @media screen and (max-width: 1199px) {
-  section {
-    padding-top: 150px;
-  }
   #yl-main-slider .owl-dots {
     left: 0;
     right: 0;
