@@ -6966,6 +6966,10 @@ select:visited {
 /*Responsive area*/
 /*----------------------------------------------------*/
 @media screen and (max-width: 5120px) {
+  .yl-contact-content-text.yl-headline:not(.adress) a {
+    display: block;
+    height: 71px;
+  }
   .yl-registration-section:after {
     width: 50%;
   }
@@ -7058,6 +7062,8 @@ select:visited {
   }
 }
 @media screen and (max-width: 1200px) {
+  .yl-contact-content-text.yl-headline:not(.adress) a {
+  }
   .assortment-arrow {
     left: 46.5%;
     top: 3448px;
