@@ -5054,9 +5054,30 @@ select:visited {
   }
 
   .hero-watermark {
-    width: 53%;
-    top: 381px;
-    left: 49%;
+    width: 45%;
+    top: 331px;
+    left: 53%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .hero-watermark {
+    width: 45%;
+    top: 384px;
+    left: 56%;
+  }
+}
+@media screen and (max-width: 431px) {
+  .hero-watermark {
+    width: 45%;
+    top: 397px;
+    left: 57%;
+  }
+}
+@media screen and (max-width: 391px) {
+  .hero-watermark {
+    width: 45%;
+    top: 441px;
+    left: 53%;
   }
 }
 @media screen and (max-width: 380px) {
@@ -5066,7 +5087,7 @@ select:visited {
   }
   .hero-watermark {
     left: 45%;
-    top: 374px;
+    top: 403px;
     width: 55%;
   }
 }
@@ -7554,6 +7575,7 @@ select:visited {
 
   .yl-banner-text p {
     font-size: 18px;
+    width: 100%;
   }
 
   .yl-banner-text .yl-banner-btn,
