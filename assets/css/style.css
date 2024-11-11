@@ -100,7 +100,10 @@ html {
 }
 .ul-li ul li {
   list-style: none;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 18px;
 }
 
 .ul-li-block ul {
@@ -6777,7 +6780,7 @@ select:visited {
 }
 
 .yl-footer-content-wrap {
-  padding-bottom: 85px;
+  padding-bottom: 55px;
   border-bottom: 2px solid #383737;
 }
 
@@ -6873,7 +6876,7 @@ select:visited {
   padding-left: 20px;
 }
 .yl-footer-widget .yl-footer-info-widget ul {
-  padding-top: 15px;
+  padding-top: 55px;
 }
 .yl-footer-widget .yl-footer-info-widget i {
   float: left;
@@ -6952,7 +6955,7 @@ select:visited {
   background-color: black;
 }
 .yl-footer-section-2 .yl-footer-content-wrap {
-  padding-top: 80px;
+  padding-top: 55px;
 }
 .yl-footer-section-2 .yl-footer-widget .yl-footer-logo-widget .footer-logo-btn {
   border-radius: 30px;
@@ -7822,6 +7825,7 @@ select:visited {
 .yl-footer-widget .yl-footer-info-widget ul {
   display: flex;
   flex-direction: row;
+  justify-content: end;
   gap: 30px;
 }
 
