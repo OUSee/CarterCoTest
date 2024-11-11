@@ -452,10 +452,11 @@ select:visited {
   padding-top: 5px;
 }
 .yl-main-navigation .navbar-nav {
-  display: inherit;
+  display: flex;
+  flex-direction: row;
 }
-.yl-main-navigation li {
-  margin-right: 75px;
+.yl-main-navigation li:not(:first-child) {
+  margin-left: 75px;
 }
 .yl-main-navigation li a {
   color: #000000;
@@ -614,7 +615,7 @@ select:visited {
   background-color: #fff;
 }
 .header-style-two .yl-brand-logo {
-  margin-right: 115px;
+  margin-right: 268px;
 }
 .header-style-two .yl-main-navigation {
   padding-top: 15px;
